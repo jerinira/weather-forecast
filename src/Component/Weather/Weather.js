@@ -4,11 +4,13 @@ const Weather = (props) => {
     const { temperature, description, location, region, country, wind_speed, pressure, precip, humidity, img } = props.weatherData;
     return (
         <div className="user-weather">
-            <div className="row">
+            <h1 class="d-flex justify-content-center">Weather app</h1>
+            <div className="row d-flex justify-content-center">
                 <div className="col-md-3 weather-temp">
                     <h1>{temperature}<sup>o</sup>C , {description}</h1>
                     <h4>{location}</h4>
                     <p>{region} , {country}</p>
+                    
                 </div>
 
                 <div className="col-md-9">

@@ -3,16 +3,11 @@
   padding:0;
   box-sizing:border-box;
   font-family:Nunito;
-  color:#ddd;
-}
-
-.container{
-  width:80%;
-  margin:auto;
+  color:black;
 }
 
 .App{
-  height:100vh;
+  height:100%;
   width:100%;
 }
 
@@ -22,13 +17,17 @@
 }
 
 .weather-temp{
-  padding-bottom:40px;
-  padding-left:60px;
+  /* padding-bottom:40px;
+  padding-left:60px; */
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
 }
 
 .weather-temp h1 , .weather-temp h4 , .weather-temp p{
   padding-bottom: 10px;
 }
+
 
 .weather-info p , .weather-info h2{
   text-align:center;
@@ -51,6 +50,7 @@
 
 .region{
   margin-top:30px;
+  align-items: center;
 }
 
 .regioninput{

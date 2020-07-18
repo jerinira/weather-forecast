@@ -5,7 +5,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: linear-gradient(to left, #AA076B, #61045F);
+  /* background-image: linear-gradient(to left, #AA076B, #61045F); */
+  background-image:url('./Component/image/weather1.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 code {
